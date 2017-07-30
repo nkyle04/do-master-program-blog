@@ -2,7 +2,7 @@
 layout: post
 title: Climbing stairs
 date: 2017-07-30
-categories: dynamic programming
+categories: dynamic-programming
 ---
 # Problem description
 
