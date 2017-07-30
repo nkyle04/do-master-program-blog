@@ -16,7 +16,7 @@ permalink: /categories/
 <h3>{{ category | first }}</h3>
 <ul id="{{ category[0] }}">
 {% for post in category.last %}
-<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+<li><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>
 {% endfor %}
 </ul>
 {% endfor %}
