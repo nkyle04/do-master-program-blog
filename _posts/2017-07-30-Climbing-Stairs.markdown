@@ -12,7 +12,7 @@ categories: dynamic-programming
 > 
 > Note: Given n will be a positive integer.
 
-# Resolution
+# Solution
 
 这是一个简单的斐波那契数列问题。可以用f(n) = f(n-1) + f(n-2)解决
 代码如下：

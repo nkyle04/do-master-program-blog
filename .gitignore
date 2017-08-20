@@ -3,3 +3,5 @@ _site
 .jekyll-metadata
 Gemfile
 Gemfile.lock
+run_server.sh
+_posts/_example.mk
